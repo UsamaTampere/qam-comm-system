@@ -36,27 +36,27 @@ This MATLAB project simulates a 16-QAM communication system including transmitte
 
 ### Channel Frequency Response  
 <p align="center">
-  <img src="figures/channel_frequency_response.png" alt="Channel Frequency Response" width="400"/>
+  <img src="figures./channel_frequency_response.png" alt="Channel Frequency Response" width="400"/>
 </p>
 
 ### Received Eye Diagram  
 <p align="center">
-  <img src="figures/received_eye_diagram.png" alt="Received Eye Diagram" width="400"/>
+  <img src="figures./received_eye_diagram.png" alt="Received Eye Diagram" width="400"/>
 </p>
 
 ### LMS Error Convergence  
 <p align="center">
-  <img src="figures/lms_error.png" alt="LMS Error" width="400"/>
+  <img src="figures./lms_error.png" alt="LMS Error" width="400"/>
 </p>
 
 ### Equalizer Frequency Response  
 <p align="center">
-  <img src="figures/equalizer_frequency_response.png" alt="Equalizer Frequency Response" width="400"/>
+  <img src="figures./equalizer_frequency_response.png" alt="Equalizer Frequency Response" width="400"/>
 </p>
 
 ### Equalized Constellation  
 <p align="center">
-  <img src="figures/equalized_constellation.png" alt="Equalized Constellation" width="400"/>
+  <img src="figures./equalized_constellation.png" alt="Equalized Constellation" width="400"/>
 </p>
 
 ---
