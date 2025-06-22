@@ -18,10 +18,10 @@ This MATLAB project simulates a 16-QAM communication system, including transmitt
 ## Output Plots
 
 ### Transmitted Constellation  
-![Transmitted Constellation](figures/transmitted_constellation.png)  
+![Transmitted Constellation](figures./transmitted_constellation.png)  
 
 ### Transmitted Eye Diagram  
-![Transmitted Eye Diagram](figures/transmitted_eye_diagram.png)  
+![Transmitted Eye Diagram](figures./transmitted_eye_diagram.png)  
 
 ### Channel Frequency Response  
 ![Channel Frequency Response](figures/channel_frequency_response.png)  
