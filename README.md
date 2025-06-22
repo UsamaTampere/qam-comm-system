@@ -1,51 +1,56 @@
-# 16-QAM Communication System MATLAB Project
+# QAM Communication System Simulation
 
-This project implements a 16-QAM digital communication system in MATLAB. It covers the full transmission chain including:
-
-- Bit generation and Gray encoding
-- 16-QAM modulation and constellation mapping
-- Pulse shaping using Root Raised Cosine (RRC) filter
-- Transmission over a multipath channel with additive white Gaussian noise (AWGN)
-- Receiver matched filtering and downsampling
-- LMS adaptive equalization to combat channel distortion
-- Symbol detection and calculation of Bit Error Rate (BER)
-- Implementation of Hamming (7,4) Error Control Coding (ECC) for improved reliability
+This MATLAB project simulates a 16-QAM communication system, including transmitter design, channel modeling with noise, receiver design, LMS equalization, and basic error control coding with Hamming (7,4) code.
 
 ---
 
+## Features
 
+- Bit generation and 16-QAM modulation with Gray coding  
+- Root Raised Cosine (RRC) pulse shaping  
+- Transmission over a multipath channel with AWGN noise  
+- Matched filtering and LMS adaptive equalization at the receiver  
+- Bit error rate (BER) calculation without ECC  
+- Implementation of Hamming (7,4) error correction code  
+
+---
+
+## Output Plots
+
+### Transmitted Constellation  
+![Transmitted Constellation](figures/transmitted_constellation.png)  
+
+### Transmitted Eye Diagram  
+![Transmitted Eye Diagram](figures/transmitted_eye_diagram.png)  
+
+### Channel Frequency Response  
+![Channel Frequency Response](figures/channel_frequency_response.png)  
+
+### Received Eye Diagram  
+![Received Eye Diagram](figures/received_eye_diagram.png)  
+
+### LMS Error Convergence  
+![LMS Error](figures/lms_error.png)  
+
+### Equalizer Frequency Response  
+![Equalizer Frequency Response](figures/equalizer_frequency_response.png)  
+
+### Equalized Constellation  
+![Equalized Constellation](figures/equalized_constellation.png)  
+
+---
 
 ## How to Run
 
-1. Open MATLAB and navigate to the project folder.
-2. Run the main script file (e.g., `qam_communication_system.m`).
-3. The script will display:
-   - Transmitted and received constellation plots
-   - Eye diagrams before and after channel effects
-   - Frequency responses of filters and equalizers
-   - Bit Error Rate (BER) calculation results
-4. You can modify parameters like SNR, symbol rate, or equalizer settings directly in the script.
+1. Open MATLAB.  
+2. Load the main script file (e.g., `qam_comm_system.m`).  
+3. Run the script to simulate the communication system and generate plots.  
 
 ---
 
-## Key MATLAB Functions Used
-
-- `qammod`, `qamdemod` — For QAM modulation and demodulation
-- `rcosdesign` — For designing Root Raised Cosine filters
-- `awgn` — Adding Gaussian noise
-- `conv` — For filtering and channel convolution
-- Custom LMS equalizer implementation
-
----
-
-## License
-
-This project is for academic use. Feel free to contact me for questions or collaboration.
-
----
-
-## Contact
+## Author
 
 Usama Bin Sohaib  
+Electrical Engineering Student  
+Tampere University  
 Email: usamabin.sohaib@tuni.fi  
-Tampere University, Finland
